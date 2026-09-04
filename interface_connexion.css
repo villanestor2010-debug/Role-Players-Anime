@@ -1,0 +1,75 @@
+
+:root {
+    --couleur_principal : #f85757;
+    --couleur_secondaire : #f7c900;
+    --couleur_tertiere : #0848f8;
+    --couleur_sous_nav : rgb(235, 129, 68);
+    --couleur_nav : rgb(230, 54, 23);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--couleur_principal);
+    display: grid;
+    justify-content: center;
+}
+
+dialog {
+    background-color: var(--couleur_secondaire);
+    display: grid;
+    justify-content: center;
+}
+
+.ensemble {
+    display: grid;
+    justify-content: center;
+}
+
+.connecter_vous {
+   font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    justify-content: center;
+    
+}
+
+.connexion {
+    background-color: var(--couleur_secondaire);
+    display: grid;
+    justify-content: center;
+}
+
+.form {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pseudo {
+    display: grid;
+    justify-content: center;
+}
+
+.password {
+    display: grid;
+    justify-content: center;
+}
+
+.submit {
+    display: grid;
+    justify-content: center;
+}
+
+.vous_avez_pas_de_compte {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    justify-content: center;
+}
+
+.inscription {
+    background-color: var(--couleur_secondaire);
+    display: grid;
+    justify-content: center;
+}

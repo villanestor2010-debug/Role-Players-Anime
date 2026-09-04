@@ -1,0 +1,228 @@
+
+:root {
+    --couleur_principal : #f85757;
+    --couleur_secondaire : #f7c900;
+    --couleur_tertiere : #0848f8;
+    --couleur_sous_nav : rgb(235, 129, 68);
+    --couleur_nav : rgb(230, 54, 23);
+}
+
+
+* {
+    background-color: var(--couleur_principal);
+    box-sizing: border-box;
+
+}
+
+h1 {
+    background-color: var(--couleur_nav);
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--couleur_nav);
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+
+/*  border: solid rgb(255, 0, 0); sur nav pour tester */
+.nav {
+   
+    background-color: var(--couleur_nav);
+    display:grid;
+    text-align: center;
+    margin-left: 40px;
+}
+
+/*    border: solid var(--couleur_tertiere); sur autour des colonne jeux pour tester */
+.colonne_jeux {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%;
+    background-color: var(--couleur_sous_nav);
+}
+
+/*    border: solid var(--couleur_tertiere); autour du jeux texte et des colonne jeux pour tester */
+.jeux_site {
+    background-color: var(--couleur_nav);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.RPA {
+    background-color: var(--couleur_sous_nav);
+    height: 20%;
+}
+
+.QS {
+    background-color: var(--couleur_sous_nav);
+}
+
+.connexion {
+   background-color: var(--couleur_nav);
+   top: 0%;
+   right: 0;
+}
+
+article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.welcome {
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+
+}
+
+.NarutovsSasuke {
+    width: 80%;
+}
+
+.propose {
+        font-size: 1.5rem;
+     margin-bottom: 20%;
+}
+
+.Description {
+    font-style: oblique;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.choix_RPA {
+    margin-top: 5%;
+}
+
+.choix_1_jeux {
+    font-weight: bold;
+}
+
+.prota {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 5px;
+
+}
+
+.choix_2_jeux {
+    font-weight: bold;
+}
+
+.sama1 {
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    justify-content: center;
+}
+
+.sama {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Temoignage {
+        font-size: 1.5rem;
+     margin-bottom: 20%;
+     width: 100%;
+}
+
+.Tem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nom {
+    font-weight: bold;
+    font-style: oblique;
+    background-color: white;
+}
+
+.Chase {
+    background-color: var(--couleur_tertiere);
+}
+
+.Gabriel {
+    background-color: var(--couleur_tertiere);
+}
+
+.M {
+    background-color: var(--couleur_tertiere);
+}
+
+.connex {
+    background-color: white;
+        font-size: 1.5rem;
+     margin-bottom: 15%;
+}
+
+.connecter {
+    background-color: white;
+    font-weight: 100;
+    font-style: oblique;
+    text-align: center;
+    justify-content: center;
+}
+
+.form {
+    margin-top: 2%;
+    background-color: white;
+    display: grid;
+    grid-row: 50px 50px;
+    gap: 10px;
+    width: 720px;
+}
+
+.form_connexion {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+}
+
+.pseudo {
+    background-color: white;
+    border: solid black;
+}
+
+.pass {
+    background-color: white;
+    border: solid black;
+
+
+}
+
+.submit {
+    background-color: rgb(102, 89, 89);
+    border: solid black;
+    font-weight: bolder;
+    font-style: initial;
+}
+
+.inscription {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.vous_avez_pas_de_compte {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    justify-content: center;
+}
+
+footer {
+    background-color: blue;
+}
+
+.foot {
+    background-color: blue;
+    font-weight: bold;
+    font-style: oblique;
+}
